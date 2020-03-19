@@ -1,7 +1,7 @@
 # Domain for Sale Page
 A simple page indicating a domain is for sale made to be deploy to ZEIT Now
 
-![Screenshot of tool](/raw/master/screenshots/screenshot_overview.png)
+![Screenshot of tool](/screenshots/screenshot_overview.png)
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/feliskio/domain-for-sale/tree/master)
 
