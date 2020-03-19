@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "env": {
+    "RECAPTCHA_SITEKEY": "@domains_for_sale_recaptcha_sitekey",
+    "RECAPTCHA_SECRET": "@domains_for_sale_recaptcha_secret"
+  },
+  "functions": {
+    "api/getEmail.js": {
+      "memory": 256
+    },
+    "api/getLandingPage.js": {
+      "memory": 256,
+      "includeFiles": "templates/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api/getLandingPage" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

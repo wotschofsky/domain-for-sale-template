@@ -1,0 +1,11 @@
+{
+  "email": "you@example.com",
+  "domains": {
+    "example.com": {
+      "price": "1000$"
+    },
+    "example.net": {
+      "price": "1000€"
+    }
+  }
+}

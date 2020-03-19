@@ -1,0 +1,8 @@
+*.css eol=lf
+*.git* eol=lf
+*.html eol=lf
+*.js eol=lf
+*.json eol=lf
+*.lock eol=lf
+*.md eol=lf
+*.mustache eol=lf
