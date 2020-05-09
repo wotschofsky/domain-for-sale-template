@@ -1,5 +1,5 @@
 # Domain for Sale Page
-A simple page indicating a domain is for sale made to be deploy to ZEIT Now
+A simple page indicating a domain is for sale made to be deployed to ZEIT Now
 
 ![Screenshot of tool](/screenshots/screenshot_overview.png)
 
