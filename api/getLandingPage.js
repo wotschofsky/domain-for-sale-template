@@ -1,6 +1,6 @@
 const qs = require('querystring');
 const Mustache = require('mustache');
-const fs = require('fs-extra');
+const fs = require('node:fs/promises');
 
 const data = require('../data.json');
 
