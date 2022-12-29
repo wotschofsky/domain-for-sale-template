@@ -1,5 +1,4 @@
 const qs = require('querystring');
-const axios = require('axios');
 
 const data = require('../data.json');
 
@@ -9,7 +8,7 @@ module.exports = async (req, res) => {
     response: req.query.recaptcha
   });
 
-  const response = await axios.get(
+  const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?${query}`,
     {
       headers: {
@@ -17,8 +16,9 @@ module.exports = async (req, res) => {
       }
     }
   );
+  const body = await response.json();
 
-  if (response.data.success) {
+  if (body.success) {
     res.status(200).end(data.email);
   } else {
     res.status(401).end();
