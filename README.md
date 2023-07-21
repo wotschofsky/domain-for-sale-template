@@ -3,7 +3,7 @@ A simple page indicating a domain is for sale made to be deployed to ZEIT Now
 
 ![Screenshot of tool](/screenshots/screenshot_overview.png)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/feliskio/domain-for-sale-template/tree/master)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/wotschofsky/domain-for-sale-template/tree/master)
 
 ## Features
 
